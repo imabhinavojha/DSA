@@ -1,0 +1,19 @@
+package com.Day11;
+
+public class SumOfEvens {
+
+	public static void main(String[] args) {
+		solve(5);
+	}
+
+	static int solve(int A) {
+		int sum = 0;
+		for (int i = 0; i <= A; i++) {
+			if (i % 2 == 0) {
+				sum = sum + i;
+			}
+		}
+		return sum;
+	}
+
+}
